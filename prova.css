@@ -1,0 +1,223 @@
+* {
+    margin: 0%;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #141313;
+}
+
+.cabeçalho a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.cabeçalho ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    padding-top: 3.7vh;
+}
+
+.cabeçalho li {
+    display: inline-block;
+    text-align: center;
+    width: 6%;
+}
+
+.home {
+    text-decoration: underline rgb(255, 217, 0) 4px ;
+    text-transform: capitalize;
+}
+
+nav {
+    position: sticky;
+}
+
+.whitespace {
+    background-color: black;
+    width: 34%;
+    display: inline-block;
+    color: white;
+    height: 10vh;
+    vertical-align: middle;
+}
+
+.whitespace p {
+    padding-top: 3.5vh;
+    text-align: right;
+    padding-right: 4%;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.cabeçalho {
+    background-color: white;
+    width: 66%;
+    height: 10vh;
+    float: right;
+    vertical-align: middle;
+}
+
+.block {
+    height: 56vh;
+    width: 100%;       
+    background-color: black;
+    display: inline-block;
+    color: white;
+}
+
+.block img{
+    width: 74%;
+    float: right;
+    height: 56vh;
+}
+
+footer {
+    background-color: #141313;
+    width: 100%;
+    height: 34vh;
+}
+
+.welcome {
+    text-decoration: underline rgb(255, 217, 0) 4px ;
+    text-transform: uppercase;
+}
+
+.block div {
+    margin-left: 23vh;
+}
+
+.block div h1 {
+    font-size: 60px;
+    position: absolute;
+}
+
+.block div h2 {
+    padding-top: 30vh;
+    padding-bottom: 2vh;
+}
+
+.block div a {
+    font-size: 13px;
+    line-height: 48px;
+    padding: 0 30px;
+    background: rgb(255, 217, 0);
+    color: black;
+    letter-spacing: 2px;
+    position: absolute;
+    font-weight: 500;
+    text-align: left;
+    text-decoration: none;
+}
+
+footer section {
+    margin-left: 35vh;
+    margin-top: 5vh;
+    align-items: center;
+}
+
+.whitespace-footer {
+    color: white;
+    display: inline-block;
+}
+
+.whitespace-footer h1 {
+    padding-bottom: 3vh;
+}
+
+.whitespace-footer p {
+    font-weight: 300;
+    color: rgb(150, 150, 150);
+}
+
+.images img {
+    width: 7vh;
+    padding: 10px;
+}
+
+.useful-links {
+    color: white;
+    display: inline-block;
+    padding-left: 10vh;
+    vertical-align: top;
+}
+
+.useful-links h1 {
+    padding-bottom: 2.7vh;
+}
+
+.useful-links a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+    font-size: 15px;
+}
+
+.quick-links {
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10vh;
+}
+
+.quick-links h1 {
+    padding-bottom: 2.7vh;
+}
+
+.quick-links a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+    font-size: 15px;
+}
+
+.have-questions {
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10vh;
+}
+
+.have-questions h1 {
+    padding-bottom: 2.7vh;
+}
+
+.have-questions ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+.have-questions li {
+    padding: 0%;
+    text-align: left;
+    color: rgb(150, 150, 150);
+    display: inline-block;
+    margin-bottom: 1vh;
+}
+
+.have-questions img {
+    width: 2vh;
+}
+
+.have-questions .questions-img {
+    margin-right: 2vh;
+    vertical-align: top;
+}
+
+.have-questions .questions-img2 {
+    margin-right: 2vh;
+}
+
+.have-questions .questions-img3 {
+    text-align: center;
+    margin-right: 2vh;
+}
+
+.have-questions .email {
+    margin-top: 2vh;
+}
